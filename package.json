@@ -1,0 +1,17 @@
+{
+  "name": "azure-login-nodets",
+  "version": "1.0.0",
+  "description": "A simple hello world npm package in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["hello", "typescript", "npm", "example"],
+  "author": "Abbas Adam Az Zuhri",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
