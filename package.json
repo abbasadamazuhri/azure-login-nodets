@@ -8,10 +8,15 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["hello", "typescript", "npm", "example"],
+  "keywords": [
+    "hello",
+    "typescript",
+    "npm",
+    "example"
+  ],
   "author": "Abbas Adam Az Zuhri",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.9.2"
   }
 }
